@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.para::first-letter{
+    font-size: 60px;
+    color: red;
+}
+.para::first-line{
+    font-weight: bold;
+}
+.name::after{
+    content: " Nageshwar";
+    color: burlywood;
+}
+.name::before{
+    content: "Mr. ";
+    color: cadetblue;
+}
+input::placeholder{
+    color: blue;
+}
